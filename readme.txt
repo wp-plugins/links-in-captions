@@ -22,7 +22,7 @@ Inside the <code>caption</code> input, you can now add a link by using the follo
 Optional: You can also specify <code>target</code> and <code>rel</code> attributes: <code>{link url="http://www.example.com" target="_blank" rel="nofollow"}Anchor text here{/link}</code>
 
 > ####You may also be interested in:
-> <strong><a href="http://wordpress.org/extend/plugins/rich-text-tags/">Rich Text Tags</a> Plugin</strong> - Allow rich text editing of tags, categories, and taxonomies. Add value to your tag & category pages and improve your website' SEO.
+> <strong><a href="http://wordpress.org/extend/plugins/rich-text-tags/">Rich Text Tags</a></strong> - Enable rich text editing of tags, categories, and taxonomies. Add value to your tag & category pages and improve your website' SEO.
 
 == Installation ==
 
