@@ -10,6 +10,8 @@ Easily add links to image captions in the WordPress editor.
 
 == Description ==
 
+<blockquote>"Just a quick note to say that I've just downloaded the 'Links in Captions' WordPress plugin and it's working a dream."<br /><cite>Pete</cite></blockquote>
+
 <h3>Finally you can add links to your image captions.</h3>
 
 Adding links to captions is the <a href="http://wordpress.org/extend/ideas/view/top-rated" rel="nofollow">10th most popular request</a> in the WordPress Ideas forum. 
