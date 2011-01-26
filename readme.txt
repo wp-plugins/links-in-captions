@@ -19,9 +19,9 @@ Adding links to captions is the <a href="http://wordpress.org/extend/ideas/view/
 With this plugin, you can also <strong>use <a href="http://codex.wordpress.org/Shortcode_API" rel="nofollow">shortcodes</a> in captions</strong>.
 
 <h4>How to use</h4>
-Inside the <code>caption</code> input, you can now add a link by using the following format: <code>{link url="http://www.example.com"}Anchor text here{/link}</code>
+Inside the <code>caption</code> input, you can now add a link by using the following format: <code>{a href="http://www.example.com"}Anchor text here{/a}</code>, or alternatively you could use <code>{link url="http://www.example.com"}Anchor text here{/link}</code>.
 
-Optional: You can also specify <code>target</code>, <code>title</code>, and <code>rel</code> attributes: <code>{link url="http://www.example.com" target="_blank" rel="nofollow" title="I never could do this before!"}Anchor text here{/link}</code>
+<strong>You can also specify <code>target</code>, <code>title</code>, and <code>rel</code> attributes:</strong> <code>{link url="http://www.example.com" target="_blank" rel="nofollow" title="I never could do this before!"}Anchor text here{/link}</code>
 
 > ####You may also be interested in:
 > <strong><a href="http://wordpress.org/extend/plugins/rich-text-tags/">Rich Text Tags</a></strong> - Enable rich text editing of tags, categories, and taxonomies. Add value to your tag & category pages and improve your website' SEO.
@@ -42,6 +42,10 @@ Optional: You can also specify <code>target</code>, <code>title</code>, and <cod
 
 == Changelog ==
 
+= 1.2 =
+* Fixed issue where `title` wasn't displaying properly - this was because the plugin didn't generate wrapping quotes. (<a href="http://wordpress.org/support/topic/513451" rel="nofollow">Thanks, Tevya</a>)
+* Added support for `{a href=""}Link{/a}` formatting instead of only `{link}`. Developers and people used to writing HTML should find this more natural.
+
 = 1.1 = 
 * Fixed issue with quotes: I did a ton of variations and possible combinations and made sure that each combination works. Now it shouldn't matter whether the caption uses single or double quotes, or even any attributes inside the link
 * Added `title` attribute support
@@ -50,6 +54,10 @@ Optional: You can also specify <code>target</code>, <code>title</code>, and <cod
 * Initial plugin release.
 
 == Upgrade Notice ==
+
+= 1.2 =
+* Fixed issue where `title` wasn't displaying properly - this was because the plugin didn't generate wrapping quotes. (<a href="http://wordpress.org/support/topic/513451" rel="nofollow">Thanks, Tevya</a>)
+* Added support for `{a href=""}Link{/a}` formatting instead of only `{link}`. Developers and people used to writing HTML should find this more natural.
 
 = 1.1 =
 * Fixed issue with quotes: I did a ton of variations and possible combinations and made sure that each combination works. Now it shouldn't matter whether the caption uses single or double quotes, or even any attributes inside the link

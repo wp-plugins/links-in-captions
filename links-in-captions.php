@@ -4,7 +4,7 @@ Plugin Name: Links in Captions
 Plugin URI: http://www.seodenver.com/lottery/
 Description: Easily add links to image captions in the WordPress editor.
 Author: Katz Web Services, Inc.
-Version: 1.1
+Version: 1.2
 Author URI: http://www.katzwebservices.com
 */
 
@@ -85,9 +85,10 @@ function add_link_to_caption_shortcode($empty, $attr, $content) {
 	# BEGIN Added for this plugin
 		// replaces {link rel="nofollow" url="http://www.example.com"}Text{/link}
 		$caption = preg_replace('/\{link(.*?)\}(.*?)\{\/link\}/ism', '[add_caption_link$1]$2[/add_caption_link]', $caption);
+		$caption = preg_replace('/\{a(.*?)\}(.*?)\{\/a}/ism', '[add_caption_link$1]$2[/add_caption_link]', $caption);
 
 		// Added for this plugin it replaces {link rel="nofollow" url="http://www.example.com" text="Text" /}
-		$caption = preg_replace('/\{link(.*?)\/\}/ism', '[add_caption_link $1 /]', $caption);
+		$caption = preg_replace('/\{a(.*?)\/\}/ism', '[add_caption_link $1 /]', $caption);
 		$caption = str_replace('&quot;', '"', $caption);
 
 	# END Added for this plugin
@@ -110,7 +111,7 @@ function add_link_to_caption_shortcode_shortcode($attr, $content = null) {
 		'url'		=> '',
 		'href'		=> '',
 		'target'	=> '',
-		'title'	=> '',
+		'title'		=> '',
 		'rel'		=> '',
 		'text'		=> ''
 	), $attr));
@@ -127,7 +128,7 @@ function add_link_to_caption_shortcode_shortcode($attr, $content = null) {
 	
 	$rel = empty($rel) ? '' :  ' rel="'.$rel.'"';
 	$target = empty($target) ? '' :  ' target="'.$target.'"';
-	$title = empty($title) ? '' :  ' title='.$title.'';
+	$title = empty($title) ? '' :  ' title="'.$title.'"';
 	
 	if(empty($link) || (empty($content) && empty($text))) { return $content; }
 	else if(empty($content)) { $content = $text; }
