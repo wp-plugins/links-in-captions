@@ -1,7 +1,7 @@
 === Links in Captions ===
 Tags: captions, links, link, link in captions, caption, image, images, editor, rich text editor, text editor, html editor
 Requires at least: 2.5
-Tested up to: 3.0.3
+Tested up to: 3.3.2
 Stable tag: trunk
 Contributors: katzwebdesign
 Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=zackkatz%40gmail%2ecom&item_name=Links%20in%20Captions&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
@@ -10,9 +10,11 @@ Easily add links to image captions in the WordPress editor.
 
 == Description ==
 
-<blockquote><p>"Just a quick note to say that I've just downloaded the 'Links in Captions' WordPress plugin and it's working like a dream."<br /><cite>Pete</cite></p></blockquote>
+<blockquote><strong>WordPress 3.4 Supports HTML in Captions!</strong><br />
+Basic HTML support has been added to the caption field in the image uploader. This allows you to add links Ñ great for photo credits or licensing details Ñ and basic formatting such as bold and italicized text.
+</blockquote>
 
-<h3>Finally you can add links to your image captions.</h3>
+<h3>For WordPress 3.3.2 and earlier...finally you can add links to your image captions.</h3>
 
 Adding links to captions is the <a href="http://wordpress.org/extend/ideas/view/top-rated" rel="nofollow">9th most popular request</a> in the WordPress Ideas forum. 
 
