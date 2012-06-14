@@ -11,7 +11,7 @@ Easily add links to image captions in the WordPress editor.
 == Description ==
 
 <blockquote><strong>WordPress 3.4 Supports HTML in Captions!</strong><br />
-Basic HTML support has been added to the caption field in the image uploader. This allows you to add links Ñ great for photo credits or licensing details Ñ and basic formatting such as bold and italicized text.
+Basic HTML support has been added to the caption field in the image uploader. This allows you to add links - great for photo credits or licensing details - and basic formatting such as bold and italicized text.<br />
 </blockquote>
 
 <h3>For WordPress 3.3.2 and earlier...finally you can add links to your image captions.</h3>
